@@ -1,0 +1,10 @@
+fr:
+  hginit:
+    conf:
+      repo_dir: "Dossier des dépôts"
+      del_script: "Script appellé à la suppression du projet"
+      http_repo: "Url racine des projets"
+      hgrc_content: "Contenu du fichier hgrc"
+    repo:
+      access_path: "Le chemin d'accès au dépôt est"
+      not_found: "Dépôt non trouvé"
