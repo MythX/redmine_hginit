@@ -1,0 +1,8 @@
+<% if @project.repositories.any? %>
+  <%=t 'hginit.repo.access_path' %>
+  <span class="total-hours">
+    <%= Setting[:plugin_redmine_hginit][:http_repo] + @project.repositories[0].root_url.split('/').last %>
+  </span>
+<% else %>
+  <%=t 'hginit.repo.not_found' %>
+<% end  %>
