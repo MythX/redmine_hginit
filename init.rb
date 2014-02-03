@@ -1,10 +1,8 @@
 Redmine::Plugin.register :redmine_hginit do
   name 'Redmine Hginit plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
+  author 'Joffrey DECOURSELLE & Antoine MOSER'
+  description 'Call hg init command after project\'s creation'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
   settings :default => {
     :repo_dir => '/var/repo',
     :del_script => '/home/redmine/scripts/remove.sh',
